@@ -1,4 +1,4 @@
-package com.example.pizza_test_app.ui.menu
+package com.example.pizza_test_app_emptyproject.ui.menu
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.pizza_test_app.ui.banner.BannerAdapter
+import com.example.pizza_test_app_emptyproject.ui.banner.BannerAdapter
 import com.example.pizza_test_app_emptyproject.databinding.FragmentMenuBinding
 
 class MenuFragment : Fragment() {

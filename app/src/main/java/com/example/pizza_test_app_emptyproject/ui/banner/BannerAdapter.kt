@@ -1,4 +1,4 @@
-package com.example.pizza_test_app.ui.banner
+package com.example.pizza_test_app_emptyproject.ui.banner
 
 import android.view.LayoutInflater
 import android.view.View

@@ -1,4 +1,4 @@
-package com.example.pizza_test_app.ui.menu
+package com.example.pizza_test_app_emptyproject.ui.menu
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
