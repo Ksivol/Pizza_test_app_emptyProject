@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pizza_test_app</string>
+    <string name="title_menu">Меню</string>
+    <string name="title_profile">Профиль</string>
+    <string name="title_basket">Корзина</string>
+    <string name="city">Москва</string>
+
+</resources>
