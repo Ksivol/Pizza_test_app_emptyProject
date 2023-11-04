@@ -15,13 +15,33 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/tv_city"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingTop="13dp"
             android:text="@string/city"
             android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_arrow_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:paddingRight="250dp"
+            app:srcCompat="@drawable/keyboard_arrow_down" />
+
+        <ImageView
+            android:id="@+id/iv_qr_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/qr_code" />
+
     </LinearLayout>
 
     <com.google.android.material.appbar.AppBarLayout
