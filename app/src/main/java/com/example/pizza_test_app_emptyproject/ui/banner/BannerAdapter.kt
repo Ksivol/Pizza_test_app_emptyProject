@@ -1,4 +1,4 @@
-package com.example.pizza_test_app.ui.banner
+package com.example.pizza_test_app_emptyproject.ui.banner
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,12 +8,16 @@ import com.example.pizza_test_app_emptyproject.R
 import com.example.pizza_test_app_emptyproject.databinding.BannerItemBinding
 
 class BannerAdapter : RecyclerView.Adapter<BannerAdapter.BannerHolder>() {
-    val bannerList = mutableListOf(Banner(R.drawable.banner1), Banner(R.drawable.banner2))
+    val bannerList = mutableListOf(
+        Banner(R.drawable.banner1),
+        Banner(R.drawable.banner2),
+        Banner(R.drawable.banner3)
+    )
 
     class BannerHolder(item: View) : RecyclerView.ViewHolder(item) {
         val binding = BannerItemBinding.bind(item)
         fun bind(banner: Banner) = with(binding) {
-            im.setImageResource(banner.imageId)
+            imBanner.setImageResource(banner.imageId)
         }
     }
 
