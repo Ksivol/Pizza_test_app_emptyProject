@@ -24,6 +24,26 @@ class ProductAdapter : RecyclerView.Adapter<ProductAdapter.ProductHolder>() {
             R.drawable.ic_tender_salmon,
             "Нежный лосось",
             "Лосось, томаты, оливки,соус песто,помидорки черри"
+        ),
+        Product(
+            R.drawable.ic_ham_and_mushrooms,
+            "Ветчина и грибы2",
+            "Ветчина2,шампиньоны, увеличинная порция моцареллы, томатный соус"
+        ),
+        Product(
+            R.drawable.ic_ham_and_mushrooms,
+            "Ветчина и грибы3",
+            "Ветчина3,шампиньоны, увеличинная порция моцареллы, томатный соус"
+        ),
+        Product(
+            R.drawable.ic_ham_and_mushrooms,
+            "Ветчина4 и грибы",
+            "Ветчина4,шампиньоны, увеличинная порция моцареллы, томатный соус"
+        ),
+        Product(
+            R.drawable.ic_ham_and_mushrooms,
+            "Ветчина5 и грибы",
+            "Ветчина5,шампиньоны, увеличинная порция моцареллы, томатный соус"
         )
     )
 
