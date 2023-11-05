@@ -11,12 +11,14 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.pizza_test_app_emptyproject.ui.banner.BannerAdapter
 import com.example.pizza_test_app_emptyproject.databinding.FragmentMenuBinding
 import com.example.pizza_test_app_emptyproject.ui.category.CategoryAdapter
+import com.example.pizza_test_app_emptyproject.ui.product.ProductAdapter
 
 class MenuFragment : Fragment() {
 
     private var _binding: FragmentMenuBinding? = null
     private val adapterBanner = BannerAdapter()
     private val adapterCategory = CategoryAdapter()
+    private val adapterProduct = ProductAdapter()
     private val binding get() = _binding!!
 
     private val vm: MenuViewModel by viewModels()
@@ -33,6 +35,7 @@ class MenuFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         init()
         initCatedory()
+        initProduct()
     }
 
     override fun onDestroyView() {
@@ -49,5 +52,11 @@ class MenuFragment : Fragment() {
         rcViewCategory.layoutManager =
             LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
         rcViewCategory.adapter = adapterCategory
+    }
+
+    private fun initProduct() = with(binding){
+        rcViewProduct.layoutManager =
+            LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
+        rcViewProduct.adapter = adapterProduct
     }
 }
