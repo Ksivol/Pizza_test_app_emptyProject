@@ -18,7 +18,7 @@ class CategoryAdapter : RecyclerView.Adapter<CategoryAdapter.CategoryHolder>() {
     class CategoryHolder(item: View) : RecyclerView.ViewHolder(item) {
         val binding = CategoryItemBinding.bind(item)
         fun bind(category: Category) = with(binding) {
-            tvCategory.text = category.title
+            buttonCategory.text = category.title
         }
 
     }
